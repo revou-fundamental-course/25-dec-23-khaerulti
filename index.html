@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link rel="stylesheet" href="text/text/animate.css">
+    <title>Kalkulator Matematika</title>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+   
+  </head>
+  <body>
+    <header id="nav-bar">
+      <h4 ><div id="logo" class="text">welcome to kaltika</div></h4>
+      <h4 class="header-text">
+        Hallo, Welcome to " Kaltika " (Kalkulator Matematika)<br />
+        Di website disini kalian bisa melakukan perhitungan matematika, yaitu
+        berupa bangun datar segitiga disini, yang terdiri dari inputan pilihan
+        yaitu luas dan keliling segitiga sama sisi
+      </h4>
+      
+      <div class="rumus">
+        <p>rumus luas segitiga:</p>
+      </div>
+      <div class="luas-img">
+        <img src="img/Luas Segitiga.jpg" />
+      </div>
+      <div class="rumus">
+        <p class="text">rumus keliling segitiga:</p>
+      </div>
+      <div class="keliling-img">
+        <img class="keliling" src="img/keliling.jpg" />
+      </div>
+    </header>
+    <main>
+      <h2 id="head" class="text">silahkan pilih salah satu terlebih dahulu !!</h2>
+      <br />
+      <div class="button">
+        <button id="luas-button">Hitung Luas</button>
+        <button id="keliling-button">Hitung Keliling</button>
+      </div>
+
+      <form id="inputkan-luas">
+        <h2 id="headjudul">hitung luas segitiga :</h2>
+        <label for="input-tinggi" id="inputan-tinggi"> Tinggi </label>
+        <input
+          placeholder="Masukkan ukuran tinggi"
+          type="number"
+          id="input-tinggi"
+          class="tinggi-input"
+        />
+        <label for="input-alas" id="inputan-alas"> Alas </label>
+        <input
+          placeholder="Masukkan ukuran alas"
+          type="number"
+          id="input-alas"
+          class="alas-input"
+        />
+      </form>
+
+      <form id="inputkan-keliling">
+        <h2 id="headjudul">hitung keliling segitiga :</h2>
+        <label for="input-sisi1" id="inputan-sisi1"> Sisi 1 </label>
+        <input
+          placeholder="Masukkan ukuran sisi"
+          type="number"
+          id="input-sisi1"
+          class="sisi1-input"
+        />
+        <label for="input-sisi2" id="inputan-sisi2"> Sisi 2 </label>
+        <input
+          placeholder="Masukkan ukuran sisi"
+          type="number"
+          id="input-sisi2"
+          class="sisi2-input"
+        />
+        <label for="input-sisi3" id="inputan-sisi3"> Sisi 3 </label>
+        <input
+          placeholder="Masukkan ukuran sisi"
+          type="number"
+          id="input-sisi3"
+          class="sisi3-input"
+        />
+      </form>
+      <div class="container">
+        <div id="hasil-luas" style=" margin-top: 10px;">
+            <div class="button">
+            <button id="hitung-button">Hitung Luas</button>
+            <button id="hitung-button1">Hitung Keliling</button>
+            <button id="reset-button">Reset</button>
+            </div>
+            <hr />
+            <fieldset id="hasil-itung">
+            <legend id="hasil-hitung">Hasil Hitung</legend>
+            <p id="perhitungan">Hasil Hitung : <span id="hasil"></span></p>
+            </fieldset>
+        </div>
+        
+        <div id="hasil-keliling">
+            <div class="button">
+            <button id="hitung-button">Hitung Luas</button>
+            <button id="hitung-button1">Hitung Keliling</button>
+            <button id="reset-button">Reset</button>
+            </div>
+            <hr />
+            <fieldset id="hasil-itung">
+            <legend id="hasil-hitung">Hasil Hitung</legend>
+            <p id="perhitungan">Hasil Hitung : <span id="hasil"></span></p>
+            </fieldset>
+        </div>
+    </div>
+    </main>
+    <footer class="footer">
+      <div class="by">khaerul</div>
+    </footer>
+    
+    <script>
+        AOS.init();
+      </script>
+
+    <!-- script -->
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+    <script src="text/text/jquery.fittext.js"></script>
+    <script src="text/text/jquery.lettering.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  </body>
+</html>
